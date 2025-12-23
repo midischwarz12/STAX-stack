@@ -6,17 +6,6 @@
   Specification and standardization of a modular web stack.
 </p>
 
-## Contents
-
-- [Axioms](#--axoims)
-- [Architecture Overview](--#architecture-overview)
-- [Decision Tree](#--decision-tree)
-- [Technology Overview](#--technology-overview)
-    - [Client Layer](#client-layer)
-    - [API Layer](#api-layer)
-    - [Data Layer](#data-layer)
-- [Detailed Scenarios](#detailed-scenarios)
-
 <h2 align="center">
   Axioms
 </h2>
@@ -27,6 +16,17 @@ This stack is built on four core principles:
 2. **High Performance**: Edge-native architecture with minimal to no JavaScript, aggressive cache capabilities, reduced distribution size, minimal hydration, minimal to no double rendering, and compiled ahead-of-time components. Every technology choice optimizes for speed.
 3. **Full Situational Coverage**: Different problems need different solutions. This stack provides the right tool for static content, dynamic UIs, server interactions, and public APIs without forcing everything through one paradigm. And every component of the tech stack is compatible and complements the next.
 4. **High Robustness**: Type safety across client-server boundaries, progressive enhancement, and graceful degradation. Works without JavaScript where possible, easy to prototype with, and scales to elastically to high demand.
+
+## Contents
+
+- [Axioms](#--axoims)
+- [Architecture Overview](--#architecture-overview)
+- [Decision Tree](#--decision-tree)
+- [Technology Overview](#--technology-overview)
+    - [Client Layer](#client-layer)
+    - [API Layer](#api-layer)
+    - [Data Layer](#data-layer)
+- [Detailed Scenarios](#detailed-scenarios)
 
 <h2 align="center">
   Architecture Overview
